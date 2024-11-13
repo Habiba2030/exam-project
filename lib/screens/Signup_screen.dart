@@ -73,7 +73,7 @@ class SignupScreen extends StatelessWidget {
            TextFormField(
              controller: pass,
              obscureText: true,
-             decoration: InputDecoration(labelText: "Password:",suffixIcon: Icon(Icons.password)),
+             decoration: InputDecoration(labelText: "Password:",suffixIcon: Icon(Icons.password,color: Colors.orange,)),
              validator: (value)
              {
                if(value==null||value.isEmpty)
