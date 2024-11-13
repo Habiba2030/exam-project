@@ -78,6 +78,7 @@ class SignupScreen extends StatelessWidget {
              {
                if(value==null||value.isEmpty)
                {
+                 //you must enter your pass
                  return 'please enter your pass';
                }
                else if(value.length<8)
